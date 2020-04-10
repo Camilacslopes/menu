@@ -109,3 +109,9 @@
   .nameUser{
       text-align: right;
   }
+
+  .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(50px, 1fr));
+    width: 100%;
+  }
